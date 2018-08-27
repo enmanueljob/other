@@ -1,42 +1,38 @@
-## Status
-**READY/IN DEVELOPMENT/HOLD**
+# Description
 
-## Migrations
-YES | NO
+Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-## Description
-A few sentences describing the overall goals of the pull request's commits.
+Fixes # (issue)
 
-## Related PRs
-List related PRs against other branches:
+## Type of change
 
-branch | PR
------- | ------
-other_pr_production | [link]()
-other_pr_master | [link]()
+Please delete options that are not relevant.
 
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
 
-## Todos
-- [ ] Tests
-- [ ] Documentation
+# How Has This Been Tested?
 
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
 
-## Deploy Notes
-Notes regarding deployment the contained body of work.  These should note any
-db migrations, etc.
+- [ ] Test A
+- [ ] Test B
 
-## Steps to Test or Reproduce
-Outline the steps to test or reproduce the PR here.
+**Test Configuration**:
+* Firmware version:
+* Hardware:
+* Toolchain:
+* SDK:
 
-```sh
-git pull --prune
-git checkout <feature_branch>
-bundle; script/server
-```
+# Checklist:
 
-1. 
-
-## Impacted Areas in Application
-List general components of the application that this PR will affect:
-
-* 
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] Any dependent changes have been merged and published in downstream modules
